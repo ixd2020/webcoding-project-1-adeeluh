@@ -1,20 +1,102 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Questrial', sans-serif;
   margin: 2em;
+
 }
 
 h1 {
-  font-style: italic;
+  font-family: 'Merriweather', serif;
+  font-style: bold;
+  color: #80604D;
+}
+h3 {
+  font-family: 'Merriweather', serif;
+  font-style: none;
+  color: #80604D;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  border: 2px solid #80604D;
+}
+
+
+.box {
+  float: left;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.redbox {
+  background-color: #d7c9c3;
+}
+.pinkbox {
+  background-color: #d7c9c3;
+}
+.bluebox {
+  background-color: #d7c9c3;
+}
+.purplebox {
+  background-color: #d7c9c3;
+}
+.swagbox {
+  background-color: #d7c9c3;
+}
+.cutebox {
+  background-color: #d7c9c3;
+}
+.threecol{
+  width: 33.33%;
+}
+.twocol{
+  width: 50%;
+}
+.onecol{
+  width: 100%;
+}
+
+div {
+   border: 1px solid white;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .pinkbox, .bluebox, .purplebox, .swagbox, .threecol, .twocol, .onecol {
+    width:70%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+} 
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
   color: black;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+/* mouse over link */
+a:hover {
+  color: #bfb8b4;
 }
-th, td {
-  padding: 5px;
-  text-align: left;    
+
+/* selected link */
+a:active {
+  color: #f2d3ef;
 }
+
+a:link {
+  text-decoration: none
+  padding: 14px 25px;
+}
+
+ 

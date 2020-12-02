@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+  <body style="background-color:#f5ebe6;"></body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+          <title>dom test</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>dom test</h1>
+    
+    <p id="demo"></p>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    
+    <h1 onclick="this.innerHTML = 'Oof ow ouchie!!!'">Click on this text!</h1>
+    <p onclick="this.innerHTML = 'Oof ow ouchie!!!'">Click on this paragraph too!
+    </p>
+    <button type="button" onclick="this.innerHTML = 'oi what r  u clickin'">Click Here</button>
+
+  <p>Click "Try it" to execute the displayDate() function.</p>
+
+<button id="myBtn">Try it</button>
+
+<p id="demo2"></p>
+    
+<button id="btn">Try it</button>
+
+<script>
+
+document.getElementById("demo").innerHTML = "Hello World!";
+
+document.getElementById("myBtn").onclick = displayDate;
+
+function displayDate() {
+  document.getElementById("demo2").innerHTML = Date();
+}
+  
+function mOver(obj) {
+  obj.innerHTML = "u are very cool 😎"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "again!"
+}
+  
+document.getElementById("btn").addEventListener("click", function() {
+  alert("u are suck");
+});
+    </script>
+    
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:250px;height:80px;padding:50px;">
+come here :3</div>
+
+
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:90px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
