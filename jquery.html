@@ -43,6 +43,44 @@ $(document).ready(function(){
 <p style="background-color:#0000ff">This is a paragraph.</p>
 
     
+    <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("h1, h2, p1, p2").addClass("blue");
+    $("div1").addClass("important");
+  });
+});
+</script>
+<style>
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.blue {
+  color: blue;
+}
+</style>
+
+<body>
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+
+<p1>This is a paragraph.</p1>
+<br><p2>This is another paragraph.</p2>
+
+<br><div1>This is some important text!</div1><br>
+
+<button>Add classes to elements</button>
+    </body>
+    
+    
+    
+    
+    
+    
+    
     <!-- import the webpage's javascript file -->
    <script src="/script.js" defer></script>
   </head>  
