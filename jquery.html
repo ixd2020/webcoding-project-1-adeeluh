@@ -7,37 +7,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Home</title>
-     <center><h1>Leonardo Da Vinci</h1></center>
+    <title>jquery test</title>
+     <center><h1>hi</h1></center>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
     
-    <div class="box redbox threecol">
-      <center><p><a href="box.html">About</a></p></center>
-      </div>
-      <div class="box pinkbox threecol">
-        <center><p><a href="domtest.html">domtest here lol</a></p></center>
-      </div>
-      <div class="box bluebox threecol">
-        <center> <p> <a href="monalisa.html">Artworks</a></p> </center> 
-    </div>
     
- 
+    
+    
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").css("background-color", "pink");
+  });
+});
+  
+  
+$(document).ready(function(){
+  $("button").click(function(){
+    $("h1, h2, p").addClass("blue");
+    $("div").addClass("important");
+  });
+});
+</script>
+    <button>Set background-color of p</button>
+    
+    <p style="background-color:#ff0000">This is a paragraph.</p>
+<p style="background-color:#00ff00">This is a paragraph.</p>
+<p style="background-color:#0000ff">This is a paragraph.</p>
+
     
     <!-- import the webpage's javascript file -->
    <script src="/script.js" defer></script>
   </head>  
   <body>
-
-    
-    <a href="jquery.html">jquery</a>
-    
-    
-    
-    
-    
-    
+        
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
    <link rel="preconnect" href="https://fonts.gstatic.com">
