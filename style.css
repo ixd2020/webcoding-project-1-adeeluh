@@ -11,6 +11,11 @@ h1 {
   font-style: bold;
   color: #80604D;
 }
+h2 {
+  font-family: 'Merriweather', serif;
+  font-style: none;
+  color: #80604D;
+}
 h3 {
   font-family: 'Merriweather', serif;
   font-style: none;
@@ -70,7 +75,7 @@ div {
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:800px) {
   .pinkbox, .bluebox, .purplebox, .swagbox, .threecol, .twocol, .onecol {
-    width:70%; /* The width is 100%, when the viewport is 800px or smaller */
+    width:50%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 } 
 
@@ -98,4 +103,37 @@ a:link {
   text-decoration: none
   padding: 14px 25px;
 }
+body {
+  background: #555;
+}
 
+.content {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
