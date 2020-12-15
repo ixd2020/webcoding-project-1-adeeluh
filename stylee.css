@@ -1,0 +1,27 @@
+/* CSS files add styling rules to your content */
+
+
+img  {
+  float: left;
+  border: 5px;
+}
+
+
+
+div {
+  border: none;
+  padding: 5px;
+}
+
+
+.clearfix {
+  overflow: auto;
+}
+
+.img2 {
+  float: left;
+}
+
+.img2 {
+  border: 7px solid #f5ebe6;
+}

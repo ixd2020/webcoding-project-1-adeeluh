@@ -21,63 +21,23 @@ h3 {
   font-style: none;
   color: #80604D;
 }
+h4 {
+  font-family: 'Merriweather', serif;
+  font-style: none;
+  color: white;
+}
 * {
   box-sizing: border-box;
 }
-img {
+img1 {
   border: 2px solid #80604D;
 }
 
 
-.box {
-  float: left;
-  padding: 5px;
-}
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
-.redbox {
-  background-color: #d7c9c3;
-}
-.pinkbox {
-  background-color: #d7c9c3;
-}
-.bluebox {
-  background-color: #d7c9c3;
-}
-.purplebox {
-  background-color: #d7c9c3;
-}
-.swagbox {
-  background-color: #d7c9c3;
-}
-.cutebox {
-  background-color: #d7c9c3;
-}
-.threecol{
-  width: 33.33%;
-}
-.twocol{
-  width: 50%;
-}
-.onecol{
-  width: 100%;
-}
 
-div {
-   border: 1px solid white;
-}
 
-/* Use a media query to add a break point at 800px: */
-@media screen and (max-width:800px) {
-  .pinkbox, .bluebox, .purplebox, .swagbox, .threecol, .twocol, .onecol {
-    width:50%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-} 
 
 /* unvisited link */
 a:link {
@@ -86,7 +46,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: black;
+  color: 	#D3D3D3;
 }
 
 /* mouse over link */
@@ -110,7 +70,7 @@ body {
 .content {
   max-width: 700px;
   margin: auto;
-  background: white;
+  background: #f5ebe6;
   padding: 10px;
 }
 
@@ -119,8 +79,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-}
+  background-color: #826a4e;
+} 
 
 li {
   float: left;
@@ -135,5 +95,73 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #593101;
+}
+
+body { 
+  margin: 0;
+  
+}
+
+#header {
+  background-color: #826a4e;
+  padding: 50px 10px;
+  color: black;
+  text-align: center;
+  font-size: 60px; 
+  font-weight: bold;
+  position: none;
+  top: 1;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+p.ex1 {
+  margin-bottom: 40%;
+}
+
+footer {
+  background-color: #826a4e;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 80%;
+  padding: 50px;
+  
+}
+
+#box {
+  color: #f5ebe6;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }

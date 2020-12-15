@@ -7,83 +7,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>jquery test</title>
-     <center><h1>hi</h1></center>
+    <title>Contact</title>
+    <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="box.html">About</a></li>
+  <li><a href="monalisa.html">Artworks</a></li>
+  <li><a href="jquery.html">Contact</a></li>
+</ul>
+    <div class="content">
+     <center><h1>Contact Us</h1></center>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
     
+    <center><p>
+      Email us with any inquiries or feedback you have for the website! We would be happy to answer your questions.
+      </p></center>
+    
+    <form action="domtest.html">
+  <label for="fname">Your name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="lname">Email:</label><br>
+  <input type="text" id="email" name="email">
+      <p>
+        Please input your REAL email so we can get back to you.
+      </p>
+      <label for="lname">Subject:</label><br>
+   <textarea name="message" rows="1" cols="30"></textarea><br>
+        <label for="lname">Your feedback/question:</label><br>
+   <textarea name="message" rows="10" cols="30"></textarea><br>
+  <script>
+      $("button").click(function(){
+      </script>
+      <button>
+        Submit
+      </button>
+</form> 
+<footer>
+  <p>©Copyright All Rights Reserved</p>
+</footer>
+
     
     
     
-    
-    
-    
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").css("background-color", "pink");
-  });
-});
   
-  
-$(document).ready(function(){
-  $("button").click(function(){
-    $("h1, h2, p").addClass("blue");
-    $("div").addClass("important");
-  });
-});
-</script>
-    <button>Set background-color of p</button>
-    
-    <p style="background-color:#ff0000">This is a paragraph.</p>
-<p style="background-color:#00ff00">This is a paragraph.</p>
-<p style="background-color:#0000ff">This is a paragraph.</p>
-
-    
-    <script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("h1, h2, p1, p2").addClass("blue");
-    $("div1").addClass("important");
-  });
-});
-</script>
-<style>
-.important {
-  font-weight: bold;
-  font-size: xx-large;
-}
-
-.blue {
-  color: blue;
-}
-</style>
-
-<body>
-
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-
-<p1>This is a paragraph.</p1>
-<br><p2>This is another paragraph.</p2>
-
-<br><div1>This is some important text!</div1><br>
-
-<button>Add classes to elements</button>
-    </body>
-    
-    
-    
-    
     
     
     
     <!-- import the webpage's javascript file -->
    <script src="/script.js" defer></script>
-  </head>  
+    </div>
+    </head> 
   <body>
         
     <link rel="preconnect" href="https://fonts.gstatic.com">
