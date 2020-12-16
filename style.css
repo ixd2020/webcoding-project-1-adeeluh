@@ -123,6 +123,12 @@ body {
 p.ex1 {
   margin-bottom: 40%;
 }
+p.ex2 {
+  margin-bottom: 20%;
+}
+p.ex3 {
+  margin-bottom: 70%;
+}
 
 footer {
   background-color: #826a4e;
